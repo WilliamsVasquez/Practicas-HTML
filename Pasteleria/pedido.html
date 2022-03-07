@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Levantar Pedido</title>
+</head>
+<body>
+    <hl>Aquí se hace el pedido</hl>
+
+<form action="pedido.js">
+    <label for="Nombre"> Por favor escribe tu nombre</label><br>
+    <input type="text" id="Nombre" name="Nombre" placeholder="Nombre">
+
+    <br><br>
+
+    <label for="Correo"> Por favor escribe tu correo electronico</label><br>
+    <input type="email" id="Correo" name="Correo" placeholder="Correo">
+
+
+    <br><br>
+
+    <label for="tell"> Por favor escribe tu numero telefonico</label><br>
+    <input type="tel" id="tell" name="tell" placeholder="Numero Telefonico" maxlength="10">
+
+
+    <br><br>
+
+    <label for="Direccion"> Por favor escribe la direccion de entrega</label><br>
+    <input type="text" id="Direccion" name="Direccion" placeholder="Direccion">
+
+    <br><br>
+
+    <label for="fecha">Selecciona fecha de entrega</label><br>
+    <input type="date" id="fecha" name="fecha"><br>
+
+    <p>¿Para aquí o para llevar?</p>
+    <input type="radio" id="aqui" name="aquiollevar" value="aqui">
+    <label for="aqui">Aqui</label><br>
+    <input type="radio" id="llevar" name="aquiollevar" value="llevar">
+    <label for="aqui">Llevar</label><br>
+
+    <p>Sabor y cantidad de Pastel</p>
+    <input type="checkbox" id="Chocolate" name="Chocolate" value="Chocolate">
+    <label for="Chocolate">Chocolate</label>
+    <input type="number" id="cantidadchocolate" name="cantidadchocolate" placeholder="Cantidad"><br>
+
+    <input type="checkbox" id="Capuchino" name="Capuchino" value="Capuchino">
+    <label for="Capuchino">Capuchino</label>
+    <input type="number" id="cantidadCapuchino" name="cantidadCapuchino" placeholder="Cantidad"><br>
+
+    <input type="checkbox" id="3 leches" name="3 leches" value="3 leches">
+    <label for="3 leches">3 leches</label>
+    <input type="number" id="cantidad3leches" name="cantidad3leches" placeholder="Cantidad"><br>
+
+    <input type="checkbox" id="Moka" name="Moka" value="Moka">
+    <label for="Moka">Moka</label>
+    <input type="number" id="cantidadMoka" name="cantidadMoka" placeholder="Cantidad"><br>
+
+    <input type="checkbox" id="Fresas" name="Fresas" value="Fresas">
+    <label for="Fresas">Fresas</label>
+    <input type="number" id="cantidadFresas" name="cantidadFresas" placeholder="Cantidad"><br>
+
+    <input type="checkbox" id="Mil Hojas" name="Mil Hojas" value="Mil Hojas">
+    <label for="Mil Hojasa">Mil Hojas</label>
+    <input type="number" id="cantidadMilHojas" name="cantidadMilHojas" placeholder="Cantidad"><br>
+
+    <input type="checkbox" id="Red Velvet" name="Red Velvet" value="Red Velvet">
+    <label for="Red Velvet">Red Velvet</label>
+    <input type="number" id="cantidadRedVelvet" name="cantidadRedVelvet" placeholder="Cantidad"><br>
+
+    <input type="checkbox" id="Zanahoria" name="Zanahoria" value="Zanahoria">
+    <label for="Zanahoria">Zanahoria</label>
+    <input type="number" id="cantidadZanahoria" name="cantidadZanahoria" placeholder="Cantidad"><br>
+
+    <p>Sabor y cantidad de Pays </p>
+    <input type="checkbox" id="Queso" name="Queso" value="Queso">
+    <label for="Queso">Queso</label>
+    <input type="number" id="cantidadQueso" name="cantidadQueso" placeholder="Cantidad"><br>
+
+    <input type="checkbox" id="Manzana" name="Manzana" value="Manzana">
+    <label for="Manzana">Manzana</label>
+    <input type="number" id="cantidadManzana" name="cantidadManzana" placeholder="Cantidad"><br>
+
+    <input type="checkbox" id="Limón" name="Limón" value="Limón">
+    <label for="Limón">Limón</label>
+    <input type="number" id="cantidadLimón" name="cantidadLimón" placeholder="Cantidad"><br>
+
+
+    <p>Sabor y cantidad de Tartas </p>
+    <input type="checkbox" id="Frutas" name="Frutas" value="Frutas">
+    <label for="Frutas">Frutas</label>
+    <input type="number" id="cantidadFrutas" name="cantidadFrutas" placeholder="Cantidad"><br>
+
+    <input type="checkbox" id="Nuez" name="Nuez" value="Nuez">
+    <label for="Nuez">Nuez</label>
+    <input type="number" id="cantidadNuez" name="cantidadNuez" placeholder="Cantidad"><br>
+
+
+    <p> Cafe</p>
+    <select name="cafe" id="cafe">
+        <option value="Latte">Latte</option>
+        <option value="Moka">Moka</option>
+        <option value="Capuchino caliente">Capuchino caliente</option>
+        <option value="Americano">Americano</option>
+        <option value="Espresso">Espresso</option>
+    </select>
+
+    <p> Frappes</p>
+    <select name="Frappes" id="Frappes">
+        <option value="Cacao">Cacao</option>
+        <option value="Chai">Chai</option>
+        <option value="Matcha">Matcha</option>
+        <option value="Taro">Taro</option>
+    </select>
+
+<br><br>
+    <input type="reset">
+    <input type="submit">
+<br><br>
+
+</form>
+
+
+</body>
+</html>
